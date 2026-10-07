@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_channels">Kanály</string>
+    <string name="nav_radio">Rádiá</string>
+    <string name="nav_favorites">Obľúbené</string>
+    <string name="nav_recent">Naposledy sledované</string>
+    <string name="nav_settings">Nastavenia</string>
+    <string name="menu_open">Otvoriť menu</string>
+    <string name="back">Späť</string>
+    <string name="drawer_recheck">Overiť dostupnosť znova</string>
+
+    <!-- Channel list -->
+    <string name="search_hint">Hľadať kanály</string>
+    <string name="search_hint_radio">Hľadať stanice</string>
+    <string name="search_clear">Vymazať hľadanie</string>
+    <string name="loading_channels">Načítavam kanály…</string>
+    <string name="loading_stations">Načítavam stanice…</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="error_unknown">Neznáma chyba</string>
+    <string name="no_channels">Žiadne kanály</string>
+    <string name="no_channels_filtered">Hľadaniu ani filtrom nevyhovujú žiadne kanály</string>
+    <string name="no_stations">Žiadne stanice</string>
+    <string name="no_stations_filtered">Hľadaniu ani filtrom nevyhovujú žiadne stanice</string>
+    <string name="no_favorites">Zatiaľ žiadne obľúbené kanály</string>
+    <string name="no_favorites_hint">Ťuknite na hviezdičku pri kanáli</string>
+    <string name="no_recent">Zatiaľ ste nič nesledovali</string>
+    <string name="favorite_add">Pridať do obľúbených</string>
+    <string name="favorite_remove">Odobrať z obľúbených</string>
+    <string name="country_unknown">Neznáma krajina</string>
+    <plurals name="channels_count">
+        <item quantity="one">%d kanál</item>
+        <item quantity="few">%d kanály</item>
+        <item quantity="many">%d kanála</item>
+        <item quantity="other">%d kanálov</item>
+    </plurals>
+    <plurals name="sources_count">
+        <item quantity="one">%d zdroj</item>
+        <item quantity="few">%d zdroje</item>
+        <item quantity="many">%d zdroja</item>
+        <item quantity="other">%d zdrojov</item>
+    </plurals>
+    <string name="stats_online">%d online</string>
+    <string name="stats_offline">%d offline</string>
+    <string name="stats_checking">%d sa overuje</string>
+
+    <!-- Stream status -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_checking">Overujem…</string>
+    <string name="status_unknown">Neznámy</string>
+
+    <!-- Filters -->
+    <string name="filters">Filtre</string>
+    <string name="filters_active">Filtre, niektoré sú aktívne</string>
+    <string name="filters_clear_all">Zrušiť všetky</string>
+    <string name="filter_country">Krajina</string>
+    <string name="filter_category">Kategória</string>
+    <string name="filter_availability">Dostupnosť</string>
+    <string name="filter_status_all">Všetky</string>
+    <string name="filter_status_online">Len online</string>
+    <string name="filter_status_offline">Offline</string>
+    <string name="filter_more">Ďalšie (%d)</string>
+    <string name="filter_less">Menej</string>
+    <plurals name="filter_show_channels">
+        <item quantity="one">Zobraziť %d kanál</item>
+        <item quantity="few">Zobraziť %d kanály</item>
+        <item quantity="many">Zobraziť %d kanála</item>
+        <item quantity="other">Zobraziť %d kanálov</item>
+    </plurals>
+
+    <plurals name="filter_show_stations">
+        <item quantity="one">Zobraziť %d stanicu</item>
+        <item quantity="few">Zobraziť %d stanice</item>
+        <item quantity="many">Zobraziť %d stanice</item>
+        <item quantity="other">Zobraziť %d staníc</item>
+    </plurals>
+
+    <!-- Channel detail -->
+    <string name="detail_play">Prehrať</string>
+    <string name="detail_sources">Zdroje</string>
+    <string name="detail_online_sources">Online · %1$d z %2$d zdrojov</string>
+    <string name="detail_not_found">Kanál sa nenašiel</string>
+    <string name="source_number">Zdroj %d</string>
+
+    <!-- Settings -->
+    <string name="settings_section_appearance">Vzhľad</string>
+    <string name="settings_language">Jazyk</string>
+    <string name="settings_language_hint">Jazyk aplikácie a názvov krajín</string>
+    <string name="language_system">Podľa systému</string>
+    <string name="settings_theme">Téma</string>
+    <string name="theme_system">Podľa systému</string>
+    <string name="theme_light">Svetlá</string>
+    <string name="theme_dark">Tmavá</string>
+    <string name="settings_section_channels">Kanály</string>
+    <string name="settings_playlists">Zdroje playlistov</string>
+    <plurals name="settings_playlists_summary">
+        <item quantity="one">%d zapnutý</item>
+        <item quantity="few">%d zapnuté</item>
+        <item quantity="many">%d zapnutého</item>
+        <item quantity="other">%d zapnutých</item>
+    </plurals>
+    <string name="settings_check_streams">Overovať dostupnosť pri spustení</string>
+    <string name="settings_check_streams_hint">Najprv sa overia kanály, ktoré vidíte</string>
+    <string name="settings_hide_offline">Skryť offline kanály</string>
+    <string name="settings_hide_offline_hint">Nedostupné kanály sa nezobrazia v zozname</string>
+    <string name="settings_section_about">O aplikácii</string>
+    <string name="settings_version">Verzia %s</string>
+    <string name="cancel">Zrušiť</string>
+
+    <!-- Playlist sources -->
+    <string name="playlists_hint">Krajiny a kategórie vyberiete vo filtri</string>
+    <string name="playlists_group_summary">%1$d z %2$d zapnutých</string>
+    <string name="playlists_custom">Vlastné</string>
+    <string name="playlists_custom_empty">Pridajte URL M3U playlistu</string>
+    <string name="playlists_add">Pridať playlist</string>
+    <string name="playlists_add_hint">URL M3U playlistu</string>
+    <string name="playlists_add_confirm">Pridať</string>
+    <string name="playlists_remove">Odstrániť</string>
+    <string name="playlists_expand">Rozbaliť</string>
+    <string name="playlists_fast">FAST kanály</string>
+    <string name="playlist_news">Správy</string>
+    <string name="playlist_sports">Šport</string>
+
+    <!-- Player -->
+    <string name="player_error">Chyba pri prehrávaní</string>
+    <string name="player_error_all_sources">Žiadny zo zdrojov (%d) sa nepodarilo prehrať</string>
+    <string name="player_source_switched">Zdroj nefungoval, prehrávam zdroj %1$d z %2$d</string>
+    <string name="player_live">NAŽIVO</string>
+    <string name="player_delayed">−30 s</string>
+    <string name="player_live_mode">Prehrávanie živého vysielania</string>
+    <string name="player_live_mode_live">Naživo – čo najbližšie k vysielaniu</string>
+    <string name="player_live_mode_delayed">S oneskorením 30 s – menej sa seká</string>
+    <string name="player_quality">Kvalita</string>
+    <string name="player_quality_auto">Auto</string>
+    <string name="player_quality_auto_hint">Auto (podľa pripojenia)</string>
+    <string name="player_sleep">Časovač</string>
+    <string name="player_sleep_title">Vypnúť prehrávanie o</string>
+    <string name="player_sleep_off">Nevypínať</string>
+    <string name="player_sleep_minutes">%d min</string>
+    <string name="player_sleep_remaining">%d min</string>
+    <string name="player_sleep_set">Prehrávanie sa vypne o %d min</string>
+
+    <!-- iptv-org categories -->
+    <string name="category_animation">Animované</string>
+    <string name="category_auto">Auto-moto</string>
+    <string name="category_business">Biznis</string>
+    <string name="category_classic">Klasika</string>
+    <string name="category_comedy">Komédia</string>
+    <string name="category_cooking">Varenie</string>
+    <string name="category_culture">Kultúra</string>
+    <string name="category_documentary">Dokumenty</string>
+    <string name="category_education">Vzdelávanie</string>
+    <string name="category_entertainment">Zábava</string>
+    <string name="category_family">Rodina</string>
+    <string name="category_general">Všeobecné</string>
+    <string name="category_interactive">Interaktívne</string>
+    <string name="category_kids">Deti</string>
+    <string name="category_legislative">Parlament</string>
+    <string name="category_lifestyle">Životný štýl</string>
+    <string name="category_movies">Filmy</string>
+    <string name="category_music">Hudba</string>
+    <string name="category_news">Spravodajstvo</string>
+    <string name="category_outdoor">Príroda a outdoor</string>
+    <string name="category_public">Verejnoprávne</string>
+    <string name="category_relax">Relax</string>
+    <string name="category_religious">Náboženstvo</string>
+    <string name="category_science">Veda</string>
+    <string name="category_series">Seriály</string>
+    <string name="category_shop">Nákupy</string>
+    <string name="category_sports">Šport</string>
+    <string name="category_travel">Cestovanie</string>
+    <string name="category_weather">Počasie</string>
+    <string name="category_undefined">Ostatné</string>
+</resources>
